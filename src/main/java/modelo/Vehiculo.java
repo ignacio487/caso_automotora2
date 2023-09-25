@@ -2,7 +2,7 @@ package modelo;
 
 public class Vehiculo {
 	private String nombre;
-	private int año;
+	private int aÃ±o;
 	private String precio;
 	private int kilometrosRecorridos;
 	private String color;
@@ -16,12 +16,12 @@ public class Vehiculo {
 		this.nombre = nombre;
 	}
 
-	public int getAño() {
-		return this.año;
+	public int getAï¿½o() {
+		return this.aï¿½o;
 	}
 
-	public void setAño(int año) {
-		this.año = año;
+	public void setAÃ±o(int aÃ±o) {
+		this.aÃ±o = aÃ±o;
 	}
 
 	public String getPrecio() {
@@ -56,7 +56,7 @@ public class Vehiculo {
 		this.marca = marca;
 	}
 
-	public void Vehiculos(String nombre, int año, String precio, int kilometrosRecorridos, String color, String marca) {
+	public void Vehiculos(String nombre, int aÃ±o, String precio, int kilometrosRecorridos, String color, String marca) {
 		throw new UnsupportedOperationException();
 	}
 }
