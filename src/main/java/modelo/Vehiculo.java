@@ -16,8 +16,8 @@ public class Vehiculo {
 		this.nombre = nombre;
 	}
 
-	public int getA�o() {
-		return this.a�o;
+	public int getAño() {
+		return this.año;
 	}
 
 	public void setAño(int año) {
@@ -57,6 +57,9 @@ public class Vehiculo {
 	}
 
 	public void Vehiculos(String nombre, int año, String precio, int kilometrosRecorridos, String color, String marca) {
-		throw new UnsupportedOperationException();
+		super();
+	}
+
+	public void add(Vehiculo vehiculo) {
 	}
 }

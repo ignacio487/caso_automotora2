@@ -39,6 +39,9 @@ public class Cliente {
 	}
 
 	public Cliente(String nombre, String direccion, String numeroTelefonico, String rut) {
-		throw new UnsupportedOperationException();
+		super();
+	}
+
+	public void add(Cliente cliente) {
 	}
 }

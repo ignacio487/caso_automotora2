@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class CelciusConverterGUI extends JFrame{
+public class RegistroCliente extends JFrame{
     private JPanel mainPanel;
     private JButton cancelarButton;
     private JTextField textField1;
@@ -10,7 +10,7 @@ public class CelciusConverterGUI extends JFrame{
     private JTextField textField5;
     private JButton registrarClienteButton;
 
-    public CelciusConverterGUI(String title){
+    public RegistroCliente(String title){
         super(title);
 
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -18,7 +18,7 @@ public class CelciusConverterGUI extends JFrame{
         this.pack();
     }
     public static void main(String[] args){
-        JFrame frame=new CelciusConverterGUI("My Celcisus Converter");
+        JFrame frame=new RegistroCliente("My Celcisus Converter");
         frame.setVisible(true);
     }
 }
