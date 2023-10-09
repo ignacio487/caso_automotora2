@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class BusquedaDeVehiculo {
     private JTextField textField1;
@@ -6,4 +8,19 @@ public class BusquedaDeVehiculo {
     private JButton buscarVehiculoBt;
     private JButton regresarBt;
     private JLabel marcavehiculoText;
+
+    public BusquedaDeVehiculo() {
+        buscarVehiculoBt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+        regresarBt.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+    }
 }

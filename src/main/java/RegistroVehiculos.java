@@ -31,6 +31,7 @@ public static void main (String[]args){
         registroVehiculos.pack();
         registroVehiculos.setVisible(true);
 }
+
 public void conectar(){
 try {
     con = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/learning", "root", "");

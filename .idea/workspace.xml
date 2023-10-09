@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc2a7a32-92dc-4211-ba7a-ba2f9c8dab92" name="Changes" comment="tarea caso automotora 2">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BusquedaDeVehiculo.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusquedaDeVehiculo.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/BusquedaDeVehiculo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/BusquedaDeVehiculo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroVehiculos.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistroVehiculos.form" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroCliente.form" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistroCliente.form" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/RegistroVehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistroVehiculos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,10 +44,24 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.SHOW": "false",
     "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="RegistroVehiculos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RegistroVehiculos" />
+      <module name="caso_automotora2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RegistroVehiculos" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -110,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695820209366</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="tarea caso automotora 2">
+      <created>1696885791312</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1696885791312</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
