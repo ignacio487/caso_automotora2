@@ -2,7 +2,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class BusquedaDeVehiculo {
+public class BusquedaDeVehiculo extends JFrame{
     private JTextField textField1;
     private JComboBox comboBox1;
     private JButton buscarVehiculoBt;
