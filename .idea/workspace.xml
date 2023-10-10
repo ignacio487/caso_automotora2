@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc2a7a32-92dc-4211-ba7a-ba2f9c8dab92" name="Changes" comment="tarea caso automotora 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RegistroVehiculos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RegistroVehiculos.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/vista/VentanaAutomotora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/vista/VentanaAutomotora.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696892137017</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="tarea caso automotora 2">
+      <created>1696899385313</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1696899385313</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

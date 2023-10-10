@@ -11,25 +11,25 @@ public class VentanaAutomotora extends JFrame {
         setTitle("Automotora XYZ");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
-        // Botón para agregar clientes
-        JButton agregarClienteButton = new JButton("Agregar Cliente");
-        agregarClienteButton.addActionListener(new ActionListener() {
+        // Botón para registrar clientes
+        JButton registroClienteButton = new JButton("Agregar Cliente");
+        registroClienteButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // Lógica para abrir la ventana de agregar cliente aquí
+                // Lógica para abrir la ventana de registrar cliente aquí
             }
         });
 
-        // Botón para agregar vehículos
-        JButton agregarVehiculoButton = new JButton("Agregar Vehículo");
-        agregarVehiculoButton.addActionListener(new ActionListener() {
+        // Botón para registrar vehículos
+        JButton registrarVehiculoButton = new JButton("Agregar Vehículo");
+        registrarVehiculoButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-                // Lógica para abrir la ventana de agregar vehículo aquí
+                // Lógica para abrir la ventana de registrar vehículo aquí
             }
         });
 
         // Botón para buscar vehículos
-        JButton buscarVehiculoButton = new JButton("Buscar Vehículo");
-        buscarVehiculoButton.addActionListener(new ActionListener() {
+        JButton BusquedaDeVehiculoButton = new JButton("Buscar Vehículo");
+        BusquedaDeVehiculoButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 // Lógica para abrir la ventana de buscar vehículo aquí
             }
@@ -37,9 +37,9 @@ public class VentanaAutomotora extends JFrame {
 
         // Agregar botones a un panel
         JPanel panel = new JPanel();
-        panel.add(agregarClienteButton);
-        panel.add(agregarVehiculoButton);
-        panel.add(buscarVehiculoButton);
+        panel.add(registroClienteButton);
+        panel.add(registrarVehiculoButton);
+        panel.add(BusquedaDeVehiculoButton);
 
         // Agregar el panel a la ventana
         add(panel);

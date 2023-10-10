@@ -1,4 +1,6 @@
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
 public class RegistroCliente extends JFrame{
     private JPanel mainPanel;
@@ -16,9 +18,16 @@ public class RegistroCliente extends JFrame{
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setContentPane(mainPanel);
         this.pack();
+        cancelarButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+            }
+        });
     }
     public static void main(String[] args){
         JFrame frame=new RegistroCliente("My Celcisus Converter");
         frame.setVisible(true);
     }
+
 }
