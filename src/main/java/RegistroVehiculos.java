@@ -1,11 +1,15 @@
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 public class RegistroVehiculos extends JFrame{
+    Connection con;
+    DefaultListModel mod = new DefaultListModel();
+    Statement statement;
+    ResultSet resultSet;
+    private JPanel panel;
+    private JList lista;
     private JTextField textField1;
     private JTextField textField3;
     private JTextField textField4;
@@ -14,7 +18,35 @@ public class RegistroVehiculos extends JFrame{
     private JComboBox comboBox2;
     private JButton registrarVehiculoButton;
     private JButton cancelarButton;
-    Connection con;
+
+
+    public void listarVehiculos() throws SQLException {
+        conectar();
+        lista.setModel(mod);
+        statement=con.createStatement();
+        resultSet=statement.executeQuery("SELECT * FROM vehiculo");
+        while (resultSet.next()){
+            mod.addElement(resultSet.getString("marca"));
+        }
+
+    }
+
+    public void insertarVehiculo(){
+        conectar();
+        String marca = textField1.getText();
+        String modelo = textField3.getText();
+        String color = textField4.getText();
+        String patente = textField5.getText();
+        String tipo = comboBox1.getSelectedItem().toString();
+        String transmision = comboBox2.getSelectedItem().toString();
+        String sql = "INSERT INTO vehiculo (marca, modelo, color, patente, tipo, transmision) VALUES ('"+marca+"','"+modelo+"','"+color+"','"+patente+"','"+tipo+"','"+transmision+"')";
+        try{
+            con.createStatement().execute(sql);
+            JOptionPane.showMessageDialog(null, "Vehiculo ingresado exitosamente");
+        }catch(SQLException e){
+            JOptionPane.showMessageDialog(null, "Error al ingresar vehiculo");
+        }
+    }
 
     public RegistroVehiculos() {
         registrarVehiculoButton.addActionListener(new ActionListener() {
